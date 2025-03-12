@@ -44,13 +44,31 @@
     flex-direction: column;
 }
 
-form input {
+.form-card form input {
     border: none;
     background-color: #ddd;
     height: 50px;
     margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.form-card form input::placeholder {
+    color: #aaf;
 }
 
 form input:focus {
     outline: 1px solid #999;
+}
+
+.form-card form button {
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ff8400;
+}
+
+.form-card form button:hover {
+    background-color: #ffbb00;
 }
