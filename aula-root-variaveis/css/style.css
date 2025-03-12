@@ -27,6 +27,15 @@ header {
   background-color: var(--main-color);
 }
 
+main{
+  min-height: calc(100vh - 300px);
+}
+
+footer{
+  min-height: 200px;
+  background-color: var(--secondary-color);
+}
+
 .generic-section {
   min-height: 300px;
   padding: 60px 20px;
@@ -64,7 +73,3 @@ header {
     color: var(--color-white);
 }
 
-footer{
-    min-height: 200px;
-    background-color: var(--secondary-color);
-}
